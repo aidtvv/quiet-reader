@@ -1,0 +1,95 @@
+/* ── Floating sidebars ─────────────────────────────────────── */
+
+.float-zone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 26px;
+  z-index: 40;
+  transition: width 280ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.float-zone.left {
+  left: 0;
+}
+
+.float-zone.right {
+  right: 0;
+}
+
+.float-zone.open.left {
+  width: 276px;
+}
+
+.float-zone.open.right {
+  width: 380px;
+}
+
+.float-rail {
+  position: absolute;
+  top: 50%;
+  width: 4px;
+  height: 76px;
+  border-radius: 2px;
+  background: #2c2c2c;
+  transform: translateY(-50%);
+  transition: background 160ms ease, opacity 160ms ease;
+}
+
+.float-zone.left .float-rail {
+  left: 3px;
+}
+
+.float-zone.right .float-rail {
+  right: 3px;
+}
+
+.float-zone:hover .float-rail {
+  background: #5d6e53;
+}
+
+.float-zone.open .float-rail {
+  opacity: 0;
+}
+
+.float-zone .outline-panel,
+.float-zone .word-panel {
+  position: absolute;
+  top: 16px;
+  bottom: 16px;
+  height: auto;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
+  transition:
+    transform 300ms cubic-bezier(0.2, 0.75, 0.25, 1),
+    opacity 200ms ease;
+  will-change: transform;
+}
+
+.float-zone.left .outline-panel {
+  left: 12px;
+  transform: translateX(calc(-100% - 20px));
+}
+
+.float-zone.right .word-panel {
+  right: 12px;
+  transform: translateX(calc(100% + 20px));
+}
+
+.float-zone.open .outline-panel,
+.float-zone.open .word-panel {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .float-zone,
+  .float-zone .outline-panel,
+  .float-zone .word-panel,
+  .float-rail {
+    transition: none;
+  }
+}

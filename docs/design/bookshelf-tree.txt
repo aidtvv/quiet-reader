@@ -1,0 +1,230 @@
+FRAME "我的书架 · Bookshelf" [20:2] 4440,0 1600x1000 fill=#191919
+  FRAME "书架工具栏" [20:3] 4440,0 1600x64 fill=#202020 stroke=#343434 w=1
+    FRAME "bookshelf icon" [20:4] 4464,22 20x20 fill=#ffffff
+      VECTOR "Vector" [20:5] 4467,27 4x11 stroke=#b8cead w=1.399999976158142
+      VECTOR "Vector" [20:6] 4473,27 3x11 stroke=#b8cead w=1.2999999523162842
+      VECTOR "Vector" [20:7] 4478,28 3x9 stroke=#b8cead w=1.2999999523162842
+      VECTOR "Vector" [20:8] 4466,40 16x0 stroke=#b8cead w=1.399999976158142
+    TEXT "应用名" [20:9] 4492,21 120x18 fill=#ececea font=Inter 500 15/18.15340805053711 ls=0
+    FRAME "分隔" [20:10] 4616,20 1x24 fill=#3a3a3a
+    FRAME "导航 · 书架 · 选中" [20:11] 4634,16 68x32 fill=#2b3027 r=8
+      TEXT "书架" [20:12] 4642,24 52x17 fill=#d5e2cc font=Noto Sans SC 500 14/16.80000114440918 ls=0
+    TEXT "笔记" [20:13] 4718,21 32x17 fill=#b6b6ae font=Noto Sans SC 400 14/16.80000114440918 ls=0
+    TEXT "词典" [20:14] 4770,21 32x17 fill=#b6b6ae font=Noto Sans SC 400 14/16.80000114440918 ls=0
+    TEXT "生词本" [20:15] 4822,21 48x17 fill=#b6b6ae font=Noto Sans SC 400 14/16.80000114440918 ls=0
+    FRAME "搜索框" [20:16] 5040,14 480x36 fill=#1a1a1a stroke=#303030 w=1 r=8
+      FRAME "search icon" [20:17] 5054,24 16x16 fill=#ffffff
+        VECTOR "Vector" [20:18] 5056,26 9x9 stroke=#6e6e68 w=1.2999999523162842
+        VECTOR "Vector" [20:19] 5065,35 3x3 stroke=#6e6e68 w=1.2999999523162842
+      TEXT "搜索提示" [20:20] 5080,24 300x16 fill=#71716c font=Noto Sans SC 400 13/15.600000381469727 ls=0
+      FRAME "快捷键" [20:21] 5468,22 38x20 fill=#262626 r=4
+        TEXT "⌘K" [20:22] 5470,27 34x12 fill=#96968d font=Inter 500 10/12.102272033691406 ls=0
+    FRAME "导入图书" [20:23] 5628,16 104x32 fill=#b8cead r=7
+      TEXT "导入图书 · 文案" [20:24] 5634,24 92x16 fill=#1f261c font=Noto Sans SC 500 13/15.600000381469727 ls=0
+    FRAME "分隔" [20:25] 5756,20 1x24 fill=#3a3a3a
+    FRAME "视图切换" [20:26] 5778,16 68x32 fill=#1a1a1a stroke=#303030 w=1 r=7
+      FRAME "网格 · 选中" [20:27] 5781,19 30x26 fill=#2e2e2c r=5
+        FRAME "grid icon" [20:28] 5792,28 14x14 fill=#ffffff
+          VECTOR "Vector" [20:29] 5793,29 5x5 stroke=#d9d9ce w=1.2000000476837158
+          VECTOR "Vector" [20:30] 5800,29 5x5 stroke=#d9d9ce w=1.2000000476837158
+          VECTOR "Vector" [20:31] 5793,36 5x5 stroke=#d9d9ce w=1.2000000476837158
+          VECTOR "Vector" [20:32] 5800,36 5x5 stroke=#d9d9ce w=1.2000000476837158
+      FRAME "list icon" [20:33] 5822,25 14x14 fill=#ffffff
+        VECTOR "Vector" [20:34] 5823,28 11x8 stroke=#71716b w=1.2000000476837158
+    FRAME "settings icon" [20:35] 5924,22 20x20 fill=#ffffff
+      VECTOR "Vector" [20:36] 5931,29 5x5 stroke=#b9b9b2 w=1.2999999523162842
+      VECTOR "Vector" [20:37] 5926,24 15x15 stroke=#b9b9b2 w=1.2999999523162842
+    FRAME "more icon" [20:38] 5968,22 20x20 fill=#ffffff
+      VECTOR "Vector" [20:39] 5971,31 3x3 fill=#b9b9b2
+      VECTOR "Vector" [20:40] 5977,31 3x3 fill=#b9b9b2
+      VECTOR "Vector" [20:41] 5983,31 3x3 fill=#b9b9b2
+  TEXT "页面标题" [20:42] 4504,94 400x40 fill=#ececea font=Noto Sans SC 500 30/40 ls=0
+  TEXT "统计副标题" [20:43] 4504,144 600x14 fill=#96968d font=Noto Sans SC 400 12/14.40000057220459 ls=0
+  FRAME "筛选栏" [20:44] 5322,100 340x32 fill=#1c1c1c stroke=#2a2a2a w=1 r=8
+    FRAME "筛选 · 全部 · 24" [20:45] 5326,104 74x24 fill=#2b3027 r=6
+      TEXT "文案" [20:46] 5332,109 62x14 fill=#d5e2cc font=Noto Sans SC 500 12/14.40000057220459 ls=0
+    FRAME "筛选 · 在读 6" [20:47] 5404,104 58x24 r=6
+      TEXT "文案" [20:48] 5410,109 46x14 fill=#b6b6ae font=Noto Sans SC 400 12/14.40000057220459 ls=0
+    FRAME "筛选 · 未读 12" [20:49] 5466,104 64x24 r=6
+      TEXT "文案" [20:50] 5472,109 52x14 fill=#b6b6ae font=Noto Sans SC 400 12/14.40000057220459 ls=0
+    FRAME "筛选 · 已读完 6" [20:51] 5534,104 72x24 r=6
+      TEXT "文案" [20:52] 5540,109 60x14 fill=#b6b6ae font=Noto Sans SC 400 12/14.40000057220459 ls=0
+    FRAME "筛选 · 生词本" [20:53] 5610,104 60x24 r=6
+      TEXT "文案" [20:54] 5616,109 48x14 fill=#b6b6ae font=Noto Sans SC 400 12/14.40000057220459 ls=0
+  FRAME "排序" [20:55] 5674,100 118x32 stroke=#343434 w=1 r=7
+    TEXT "排序文案" [20:56] 5686,108 80x14 fill=#b6b6ae font=Noto Sans SC 400 12/14.40000057220459 ls=0
+    FRAME "chevron" [20:57] 5768,110 12x12 fill=#ffffff
+      VECTOR "Vector" [20:58] 5771,115 7x4 stroke=#8a8a83 w=1.2000000476837158
+  FRAME "视图切换 · 页头" [20:59] 5804,100 64x32 fill=#1c1c1c r=7
+  FRAME "新建书架" [20:60] 5880,100 96x32 stroke=#343434 w=1 r=7
+    TEXT "新建书架 · 文案" [20:61] 5886,109 84x14 fill=#b6b6ae font=Noto Sans SC 400 12/14.40000057220459 ls=0
+  TEXT "分组 · 继续阅读" [20:62] 4504,172 200x13 fill=#96968d font=Noto Sans SC 500 11/13.200000762939453 ls=1.399999976158142
+  FRAME "继续阅读卡片" [20:63] 4504,198 1472x160 fill=#1d1d1d stroke=#2a2a2a w=1 r=12
+    FRAME "封面" [20:64] 4528,222 80x112 fill=#24302a r=4
+      FRAME "封面色带" [20:65] 4528,222 3x112 fill=#b8cead
+      TEXT "封面 · 栏目" [20:66] 4542,236 56x16 fill=#b8cead font=Inter 500 6.5/7.866477012634277 ls=0.6000000238418579
+      TEXT "封面 · 书名" [20:67] 4542,266 56x48 fill=#cdd7c6 font=Lora 500 9/12 ls=0
+      TEXT "封面 · 期号" [20:68] 4542,318 56x8 fill=#8f9c87 font=Inter 400 6.5/7.866477012634277 ls=0
+    TEXT "书名" [20:69] 4632,224 560x10 fill=#e4e4d8 font=Lora 500 19/26 ls=0
+    TEXT "元信息" [20:70] 4632,254 560x14 fill=#96968d font=Noto Sans SC 400 12/14.40000057220459 ls=0
+    FRAME "进度条" [20:71] 4632,290 320x4 fill=#2e2e2d r=2
+      FRAME "进度 · 62%" [20:72] 4632,290 198x4 fill=#b8cead r=2
+    TEXT "进度百分比" [20:73] 4964,282 40x13 fill=#d5e2cc font=Inter 500 11/13.3125 ls=0
+    TEXT "阅读提示" [20:74] 4632,304 460x13 fill=#71716c font=Noto Sans SC 400 11/13.200000762939453 ls=0
+    FRAME "分隔" [20:75] 5700,230 1x96 fill=#2a2a2a
+    TEXT "统计 · 本周" [20:76] 5256,256 80x13 fill=#71716c font=Noto Sans SC 400 11/13.200000762939453 ls=0
+    TEXT "统计值 · 3.5 小时" [20:77] 5256,274 120x19 fill=#b6b6ae font=Inter 500 16/19.363636016845703 ls=0
+    TEXT "统计 · 连续" [20:78] 5404,256 80x13 fill=#71716c font=Noto Sans SC 400 11/13.200000762939453 ls=0
+    TEXT "统计值 · 6 天" [20:79] 5404,274 120x19 fill=#b6b6ae font=Inter 500 16/19.363636016845703 ls=0
+    TEXT "统计 · 笔记" [20:80] 5552,256 80x13 fill=#71716c font=Noto Sans SC 400 11/13.200000762939453 ls=0
+    TEXT "统计值 · 42 条" [20:81] 5552,274 120x19 fill=#b6b6ae font=Inter 500 16/19.363636016845703 ls=0
+    FRAME "写笔记" [20:82] 5736,259 88x38 stroke=#3a3a3a w=1 r=8
+      TEXT "写笔记 · 文案" [20:83] 5742,270 76x16 fill=#b6b6ae font=Noto Sans SC 400 13/15.600000381469727 ls=0
+    FRAME "继续阅读按钮" [20:84] 5836,259 116x38 fill=#b8cead r=8
+      TEXT "继续阅读 · 文案" [20:85] 5842,270 104x16 fill=#1f261c font=Noto Sans SC 500 13/15.600000381469727 ls=0
+  TEXT "分组 · 全部藏书" [20:86] 4504,372 200x13 fill=#96968d font=Noto Sans SC 500 11/13.200000762939453 ls=1.399999976158142
+  TEXT "藏书数量" [20:87] 4616,371 80x14 fill=#71716c font=Noto Sans SC 400 12/14.40000057220459 ls=0
+  TEXT "管理书架" [20:88] 5876,371 100x14 fill=#96968d font=Noto Sans SC 400 12/14.40000057220459 ls=0
+  FRAME "书架状态栏" [20:89] 4440,960 1600x40 fill=#202020 stroke=#343434 w=1
+    FRAME "状态点" [20:90] 4464,977 6x6 fill=#b8cead r=3
+    TEXT "同步状态" [20:91] 4478,971 300x14 fill=#96968d font=Noto Sans SC 400 12/14.40000057220459 ls=0
+    TEXT "书库统计" [20:92] 5040,971 400x14 fill=#71716c font=Noto Sans SC 400 12/14.40000057220459 ls=0
+    TEXT "版本" [20:93] 5816,971 160x14 fill=#71716c font=Noto Sans SC 400 12/14.40000057220459 ls=0
+  FRAME "书架 · 第一排" [21:30] 4504,400 1472x245 auto=HORIZONTAL gap=24
+    INSTANCE "Book · The quiet power of paying attention" [21:32] 4504,400 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:32;21:17] 4563,400 108x162 fill=#24302a r=4
+        RECTANGLE "封面色带" [I21:32;21:18] 4563,400 3x162 fill=#8fae7f
+        TEXT "封面 · 栏目" [I21:32;21:19] 4578,414 78x10 fill=#8fae7f font=Inter 500 8/9.681818008422852 ls=0.5
+        TEXT "封面 · 书名" [I21:32;21:21] 4577,472 82x56 fill=#cbd9c2 font=Lora 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:32;21:23] 4578,536 20x1 fill=#8fae7f
+        TEXT "封面 · 页脚" [I21:32;21:25] 4578,542 78x8 fill=#8fae7f font=Inter 400 7/8.471590995788574 ls=0
+      TEXT "书名" [I21:32;21:26] 4504,572 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:32;21:27] 4504,618 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:32;21:28] 4569,641 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:32;21:29] 4569,641 140x3 fill=#8fae7f r=2
+    INSTANCE "Book · 考研红宝书 2026" [21:46] 4753,400 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:46;21:17] 4812,400 108x162 fill=#2e2622 r=4
+        RECTANGLE "封面色带" [I21:46;21:18] 4812,400 3x162 fill=#c9a87c
+        TEXT "封面 · 栏目" [I21:46;21:19] 4827,414 78x10 fill=#c9a87c font=Noto Sans SC 500 8/9.600000381469727 ls=0.5
+        TEXT "封面 · 书名" [I21:46;21:21] 4826,472 82x28 fill=#e2d3c4 font=Noto Sans SC 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:46;21:23] 4827,536 20x1 fill=#c9a87c
+        TEXT "封面 · 页脚" [I21:46;21:25] 4827,542 78x8 fill=#c9a87c font=Noto Sans SC 400 7/8.40000057220459 ls=0
+      TEXT "书名" [I21:46;21:26] 4753,572 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:46;21:27] 4753,618 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:46;21:28] 4818,641 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:46;21:29] 4818,641 140x3 fill=#c9a87c r=2
+    INSTANCE "Book · Pride and Prejudice" [21:60] 5002,400 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:60;21:17] 5061,400 108x162 fill=#232a33 r=4
+        RECTANGLE "封面色带" [I21:60;21:18] 5061,400 3x162 fill=#8fa6c2
+        TEXT "封面 · 栏目" [I21:60;21:19] 5076,414 78x20 fill=#8fa6c2 font=Inter 500 8/9.681818008422852 ls=0.5
+        TEXT "封面 · 书名" [I21:60;21:21] 5075,472 82x28 fill=#c8d6e6 font=Lora 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:60;21:23] 5076,536 20x1 fill=#8fa6c2
+        TEXT "封面 · 页脚" [I21:60;21:25] 5076,542 78x8 fill=#8fa6c2 font=Inter 400 7/8.471590995788574 ls=0
+      TEXT "书名" [I21:60;21:26] 5002,572 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:60;21:27] 5002,618 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:60;21:28] 5067,641 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:60;21:29] 5067,641 140x3 fill=#8fa6c2 r=2
+    INSTANCE "Book · 剑桥雅思真题 18" [21:74] 5251,400 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:74;21:17] 5310,400 108x162 fill=#332426 r=4
+        RECTANGLE "封面色带" [I21:74;21:18] 5310,400 3x162 fill=#c08a8f
+        TEXT "封面 · 栏目" [I21:74;21:19] 5325,414 78x10 fill=#c08a8f font=Noto Sans SC 500 8/9.600000381469727 ls=0.5
+        TEXT "封面 · 书名" [I21:74;21:21] 5324,472 82x28 fill=#e8cbce font=Noto Sans SC 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:74;21:23] 5325,536 20x1 fill=#c08a8f
+        TEXT "封面 · 页脚" [I21:74;21:25] 5325,542 78x8 fill=#c08a8f font=Noto Sans SC 400 7/8.40000057220459 ls=0
+      TEXT "书名" [I21:74;21:26] 5251,572 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:74;21:27] 5251,618 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:74;21:28] 5316,641 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:74;21:29] 5316,641 140x3 fill=#c08a8f r=2
+    INSTANCE "Book · The Great Gatsby" [21:88] 5500,400 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:88;21:17] 5559,400 108x162 fill=#2b2b24 r=4
+        RECTANGLE "封面色带" [I21:88;21:18] 5559,400 3x162 fill=#b5ae7e
+        TEXT "封面 · 栏目" [I21:88;21:19] 5574,414 78x10 fill=#b5ae7e font=Inter 500 8/9.681818008422852 ls=0.5
+        TEXT "封面 · 书名" [I21:88;21:21] 5573,472 82x28 fill=#ddd9c4 font=Lora 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:88;21:23] 5574,536 20x1 fill=#b5ae7e
+        TEXT "封面 · 页脚" [I21:88;21:25] 5574,542 78x8 fill=#b5ae7e font=Inter 400 7/8.471590995788574 ls=0
+      TEXT "书名" [I21:88;21:26] 5500,572 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:88;21:27] 5500,618 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:88;21:28] 5565,641 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:88;21:29] 5565,641 140x3 fill=#b5ae7e r=2
+    INSTANCE "Book · CET-6 核心词汇" [21:102] 5749,400 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:102;21:17] 5808,400 108x162 fill=#25262e r=4
+        RECTANGLE "封面色带" [I21:102;21:18] 5808,400 3x162 fill=#9aa0c4
+        TEXT "封面 · 栏目" [I21:102;21:19] 5823,414 78x10 fill=#9aa0c4 font=Noto Sans SC 500 8/9.600000381469727 ls=0.5
+        TEXT "封面 · 书名" [I21:102;21:21] 5822,472 82x28 fill=#cfd2e0 font=Noto Sans SC 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:102;21:23] 5823,536 20x1 fill=#9aa0c4
+        TEXT "封面 · 页脚" [I21:102;21:25] 5823,542 78x8 fill=#9aa0c4 font=Noto Sans SC 400 7/8.40000057220459 ls=0
+      TEXT "书名" [I21:102;21:26] 5749,572 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:102;21:27] 5749,618 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:102;21:28] 5814,641 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:102;21:29] 5814,641 140x3 fill=#9aa0c4 r=2
+  FRAME "书架 · 第二排" [21:31] 4504,665 1472x245 auto=HORIZONTAL gap=24
+    INSTANCE "Book · Dune" [21:116] 4504,665 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:116;21:17] 4563,665 108x162 fill=#2c2419 r=4
+        RECTANGLE "封面色带" [I21:116;21:18] 4563,665 3x162 fill=#c3a166
+        TEXT "封面 · 栏目" [I21:116;21:19] 4578,679 78x10 fill=#c3a166 font=Inter 500 8/9.681818008422852 ls=0.5
+        TEXT "封面 · 书名" [I21:116;21:21] 4577,737 82x14 fill=#e3d2b6 font=Lora 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:116;21:23] 4578,801 20x1 fill=#c3a166
+        TEXT "封面 · 页脚" [I21:116;21:25] 4578,807 78x8 fill=#c3a166 font=Inter 400 7/8.471590995788574 ls=0
+      TEXT "书名" [I21:116;21:26] 4504,837 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:116;21:27] 4504,883 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:116;21:28] 4569,906 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:116;21:29] 4569,906 140x3 fill=#c3a166 r=2
+    INSTANCE "Book · 外刊精读 · 科技与未来" [21:130] 4753,665 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:130;21:17] 4812,665 108x162 fill=#1f2a2a r=4
+        RECTANGLE "封面色带" [I21:130;21:18] 4812,665 3x162 fill=#86b3ae
+        TEXT "封面 · 栏目" [I21:130;21:19] 4827,679 78x10 fill=#86b3ae font=Noto Sans SC 500 8/9.600000381469727 ls=0.5
+        TEXT "封面 · 书名" [I21:130;21:21] 4826,737 82x42 fill=#c6dcd9 font=Noto Sans SC 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:130;21:23] 4827,801 20x1 fill=#86b3ae
+        TEXT "封面 · 页脚" [I21:130;21:25] 4827,807 78x8 fill=#86b3ae font=Noto Sans SC 400 7/8.40000057220459 ls=0
+      TEXT "书名" [I21:130;21:26] 4753,837 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:130;21:27] 4753,883 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:130;21:28] 4818,906 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:130;21:29] 4818,906 140x3 fill=#86b3ae r=2
+    INSTANCE "Book · GRE 填空 3000" [21:144] 5002,665 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:144;21:17] 5061,665 108x162 fill=#2a2430 r=4
+        RECTANGLE "封面色带" [I21:144;21:18] 5061,665 3x162 fill=#a995c4
+        TEXT "封面 · 栏目" [I21:144;21:19] 5076,679 78x10 fill=#a995c4 font=Noto Sans SC 500 8/9.600000381469727 ls=0.5
+        TEXT "封面 · 书名" [I21:144;21:21] 5075,737 82x28 fill=#d8cbe4 font=Noto Sans SC 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:144;21:23] 5076,801 20x1 fill=#a995c4
+        TEXT "封面 · 页脚" [I21:144;21:25] 5076,807 78x8 fill=#a995c4 font=Noto Sans SC 400 7/8.40000057220459 ls=0
+      TEXT "书名" [I21:144;21:26] 5002,837 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:144;21:27] 5002,883 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:144;21:28] 5067,906 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:144;21:29] 5067,906 140x3 fill=#a995c4 r=2
+    INSTANCE "Book · Normal People" [21:158] 5251,665 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:158;21:17] 5310,665 108x162 fill=#2f2326 r=4
+        RECTANGLE "封面色带" [I21:158;21:18] 5310,665 3x162 fill=#c08e96
+        TEXT "封面 · 栏目" [I21:158;21:19] 5325,679 78x10 fill=#c08e96 font=Inter 500 8/9.681818008422852 ls=0.5
+        TEXT "封面 · 书名" [I21:158;21:21] 5324,737 82x28 fill=#e6c9ce font=Lora 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:158;21:23] 5325,801 20x1 fill=#c08e96
+        TEXT "封面 · 页脚" [I21:158;21:25] 5325,807 78x8 fill=#c08e96 font=Inter 400 7/8.471590995788574 ls=0
+      TEXT "书名" [I21:158;21:26] 5251,837 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:158;21:27] 5251,883 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:158;21:28] 5316,906 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:158;21:29] 5316,906 140x3 fill=#c08e96 r=2
+    INSTANCE "Book · TOEFL 学科词汇" [21:172] 5500,665 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:172;21:17] 5559,665 108x162 fill=#22292e r=4
+        RECTANGLE "封面色带" [I21:172;21:18] 5559,665 3x162 fill=#8faebf
+        TEXT "封面 · 栏目" [I21:172;21:19] 5574,679 78x10 fill=#8faebf font=Noto Sans SC 500 8/9.600000381469727 ls=0.5
+        TEXT "封面 · 书名" [I21:172;21:21] 5573,737 82x28 fill=#cad8df font=Noto Sans SC 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:172;21:23] 5574,801 20x1 fill=#8faebf
+        TEXT "封面 · 页脚" [I21:172;21:25] 5574,807 78x8 fill=#8faebf font=Noto Sans SC 400 7/8.40000057220459 ls=0
+      TEXT "书名" [I21:172;21:26] 5500,837 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:172;21:27] 5500,883 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:172;21:28] 5565,906 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:172;21:29] 5565,906 140x3 fill=#8faebf r=2
+    INSTANCE "Book · A Moveable Feast" [21:186] 5749,665 225x245 auto=VERTICAL gap=10
+      FRAME "封面" [I21:186;21:17] 5808,665 108x162 fill=#2d2a20 r=4
+        RECTANGLE "封面色带" [I21:186;21:18] 5808,665 3x162 fill=#bfaf74
+        TEXT "封面 · 栏目" [I21:186;21:19] 5823,679 78x10 fill=#bfaf74 font=Inter 500 8/9.681818008422852 ls=0.5
+        TEXT "封面 · 书名" [I21:186;21:21] 5822,737 82x28 fill=#e0d6b8 font=Lora 500 11/14 ls=0
+        RECTANGLE "封底分隔" [I21:186;21:23] 5823,801 20x1 fill=#bfaf74
+        TEXT "封面 · 页脚" [I21:186;21:25] 5823,807 78x8 fill=#bfaf74 font=Inter 400 7/8.471590995788574 ls=0
+      TEXT "书名" [I21:186;21:26] 5749,837 225x36 fill=#dddbd3 font=Noto Sans SC 500 13/18 ls=0
+      TEXT "元信息" [I21:186;21:27] 5749,883 225x13 fill=#7e7e78 font=Noto Sans SC 400 11/13.200000762939453 ls=0
+      FRAME "进度条" [I21:186;21:28] 5814,906 96x3 fill=#26262a r=2
+        FRAME "进度" [I21:186;21:29] 5814,906 140x3 fill=#bfaf74 r=2
+  RECTANGLE "书架横板 · 第一层 · 阴影" [21:200] 4504,656 1472x2 fill=#22221f
+  RECTANGLE "书架横板 · 第一层" [21:201] 4504,653 1472x1 fill=#2e2e2b
+  RECTANGLE "书架横板 · 第二层 · 阴影" [21:202] 4504,921 1472x2 fill=#22221f
+  RECTANGLE "书架横板 · 第二层" [21:203] 4504,918 1472x1 fill=#2e2e2b

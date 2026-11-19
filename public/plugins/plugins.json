@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "kaoyan-hongbaoshu-2025",
+      "name": "考研红宝书 2025",
+      "type": "wordlist",
+      "description": "2025 考研英语红宝书词汇",
+      "wordCount": 6705,
+      "matchableCount": 6700,
+      "source": "https://github.com/RealKai42/qwerty-learner",
+      "license": "GPL-3.0（词表版权归原出版方，仅供个人学习）",
+      "file": "kaoyan-hongbaoshu-2025.json",
+      "defaultEnabled": true
+    },
+    {
+      "id": "kaoyan-hongbaoshu-2026",
+      "name": "考研红宝书 2026",
+      "type": "wordlist",
+      "description": "2026 考研英语红宝书词汇",
+      "wordCount": 4858,
+      "matchableCount": 4839,
+      "source": "https://github.com/RealKai42/qwerty-learner",
+      "license": "GPL-3.0（词表版权归原出版方，仅供个人学习）",
+      "file": "kaoyan-hongbaoshu-2026.json",
+      "defaultEnabled": false
+    },
+    {
+      "id": "cet4",
+      "name": "大学英语四级",
+      "type": "wordlist",
+      "description": "CET-4 大纲词汇",
+      "wordCount": 2607,
+      "matchableCount": 2607,
+      "source": "https://github.com/RealKai42/qwerty-learner",
+      "license": "GPL-3.0（词表版权归原出版方，仅供个人学习）",
+      "file": "cet4.json",
+      "defaultEnabled": false
+    },
+    {
+      "id": "cet6",
+      "name": "大学英语六级",
+      "type": "wordlist",
+      "description": "CET-6 大纲词汇",
+      "wordCount": 2345,
+      "matchableCount": 2345,
+      "source": "https://github.com/RealKai42/qwerty-learner",
+      "license": "GPL-3.0（词表版权归原出版方，仅供个人学习）",
+      "file": "cet6.json",
+      "defaultEnabled": false
+    },
+    {
+      "id": "ielts",
+      "name": "雅思",
+      "type": "wordlist",
+      "description": "IELTS 核心词汇",
+      "wordCount": 3575,
+      "matchableCount": 3555,
+      "source": "https://github.com/RealKai42/qwerty-learner",
+      "license": "GPL-3.0（词表版权归原出版方，仅供个人学习）",
+      "file": "ielts.json",
+      "defaultEnabled": false
+    },
+    {
+      "id": "toefl",
+      "name": "托福",
+      "type": "wordlist",
+      "description": "TOEFL 核心词汇",
+      "wordCount": 4264,
+      "matchableCount": 4264,
+      "source": "https://github.com/RealKai42/qwerty-learner",
+      "license": "GPL-3.0（词表版权归原出版方，仅供个人学习）",
+      "file": "toefl.json",
+      "defaultEnabled": false
+    },
+    {
+      "id": "gre",
+      "name": "GRE",
+      "type": "wordlist",
+      "description": "GRE 核心词汇",
+      "wordCount": 6515,
+      "matchableCount": 6514,
+      "source": "https://github.com/RealKai42/qwerty-learner",
+      "license": "GPL-3.0（词表版权归原出版方，仅供个人学习）",
+      "file": "gre.json",
+      "defaultEnabled": false
+    }
+  ]
+}
